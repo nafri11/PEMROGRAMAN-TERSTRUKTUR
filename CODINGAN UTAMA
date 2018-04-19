@@ -1,5 +1,7 @@
 //# PEMROGRAMAN-TERSTRUKTUR
 #include<iostream>
+#include <bits/stdc++.h>
+  
   using namespace std;
   int main ()
   {
@@ -16,3 +18,16 @@
                          {'q','b','f','r','o','g','m','a','m','w','p','w','e','e','y'},
                          {'l','q','z','q','n','n','m','r','z','j','j','s','c','l','g'},
                          {'...'}};
+                         
+    int a,b;
+	  string dapat, kata;
+	  bool c;
+      
+    cout<<"\t\tProgram Mencari Kata"<<endl;
+    cout<<"\nMasukan Kata Yang Ingin Anda Cari"<<endl;
+    
+    void revStr(string &str){
+    int n = str.length();
+    for (int a=0; a<n/2; a++)
+       swap(str[a], str[n-a-1]);
+    }
