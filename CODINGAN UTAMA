@@ -18,8 +18,17 @@
                          {'q','b','f','r','o','g','m','a','m','w','p','w','e','e','y'},
                          {'l','q','z','q','n','n','m','r','z','j','j','s','c','l','g'},
                          {'...'}};
+			 
+			 
+			 
+    for(a=0;a<15;a++){
+    for(b=0;a<15;a++){
+    cout<<soal[a][b]<<"|";
+    }
+    }
+   
                          
-    int a,b;
+    /*int a,b;
 	  string dapat, kata;
 	  bool c;
       
@@ -30,4 +39,6 @@
     int n = str.length();
     for (int a=0; a<n/2; a++)
        swap(str[a], str[n-a-1]);
-    }
+    } */ 
+    
+   //error put
