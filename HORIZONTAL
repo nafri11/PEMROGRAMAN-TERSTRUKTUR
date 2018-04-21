@@ -1,0 +1,32 @@
+//fungsi nyari horizontal
+for(a=0;a<15;a++)
+	{
+		for(b=0;b<15;b++)
+		{
+			if(words[0]==soal[a][b])
+			{
+				for(c=0;c<length;c++)
+				{
+					if(words[c]==soal[a+b][b] )
+					{
+						tmp=c;
+				    }
+					else
+					{
+						tmp!=c;
+						break;
+					}
+					cout<<tmp<<endl;
+					
+				}
+			}
+			//if(tmp==(batas-1))
+			//{
+				temp+=1;
+			//}
+			//else
+			//{
+				temp+=0;
+			//}
+		}
+	}
