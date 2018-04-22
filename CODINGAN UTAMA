@@ -1,3 +1,6 @@
+//Tugas Kelompok Pemrograman Struktur
+//Program Permainan Pencarian Kata
+
 #include<iostream>
 #include <bits/stdc++.h>
 #include <conio.h>
@@ -23,8 +26,8 @@
                          {'q','b','f','r','o','g','m','a','m','w','p','w','e','e','y'},
                          {'l','q','z','q','n','n','m','r','z','j','j','s','c','l','g'},
                          {'m','o','s','g','z','c','z','e','t','d','b','o','o','t','o'},
-			 			 {'p','d','c','r','z','m','s','n','g','r','d','n','r','p','z'},
-						 {'o','h','n','k','z','w','a','t','e','r','j','g','t','r','a'}};
+			 {'p','d','c','r','z','m','s','n','g','r','d','n','r','p','z'},
+			 {'o','h','n','k','z','w','a','t','e','r','j','g','t','r','a'}};
  
 void display()
 {
@@ -59,7 +62,7 @@ bool result(int n)
 //	cout<< strlen(words);
 	
 
-	
+//pencarian Secara Horizontal
 	for(a=0;a<15;a++)
 	{
 		for(b=0;b<15;b++)
@@ -88,6 +91,7 @@ bool result(int n)
 				temp;
 			}
 			tmp=check[0];
+//Pencarian Secara Vertical
 			for(c=0;c<strlen(words);c++)
 				{
 					if(words[c]==soal[a+c][(b)] )
@@ -130,6 +134,7 @@ bool result(int n)
 				temp;
 			}
 			tmp=check[0];
+//Pencarian Secara Diagonal
 			for(c=0;c<strlen(words);c++)
 				{
 					if(words[c]==soal[a+c][(b-c)] )
