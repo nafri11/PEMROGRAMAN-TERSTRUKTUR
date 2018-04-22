@@ -43,12 +43,12 @@ bool result(int n)
 {
 	if (temp>0)
 	{
-		cout<<true<<endl;
+		cout<<"ada"<<endl;
 	
 	}
 	else
 	{
-		cout<<false<<endl;
+		cout<<"tidak ada"<<endl;
 	}
 }
 
@@ -164,7 +164,7 @@ result(temp);
 		char kembali;
 		cout<<"Ingin mencari kata lagi? (Y/T) ?";
 		cin>>kembali;
-		if (kembali=='Y' || kembali=='y') {goto menu;}
+		if (kembali=='Y' || kembali=='y') {system("cls");temp=0;goto menu;}
 		else if (kembali=='T' || kembali=='t') {exit (0);}
 		else {goto kembali;}
 
