@@ -1,6 +1,5 @@
 m//# PEMROGRAMAN-TERSTRUKTUR
 #include<iostream>
-#include <bits/stdc++.h>
   
   using namespace std;
   int main ()
@@ -36,11 +35,3 @@ m//# PEMROGRAMAN-TERSTRUKTUR
       
     cout<<"\t\tProgram Mencari Kata"<<endl;
     cout<<"\nMasukan Kata Yang Ingin Anda Cari"<<endl;
-    
-    void revStr(string &str){
-    int n = str.length();
-    for (int a=0; a<n/2; a++)
-       swap(str[a], str[n-a-1]);
-    } */ 
-    
-   //error put
