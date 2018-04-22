@@ -5,7 +5,7 @@ int a,b;
 char words[0];
 
 
-char soal[15][15] = 	   {{'t','g','b','w','w','i','n','t','e','r','w','s','e','s','n'},
+char soal[15][15] = 	 {{'t','g','b','w','w','i','n','t','e','r','w','s','e','s','n'},
                          {'a','a','u','n','t','t','m','m','h','f','o','o','d','n','b'},
                          {'j','l','w','c','q','l','d','z','m','p','m','v','d','m','r'},
                          {'a','s','a','g','m','q','u','w','v','v','b','s','o','h','i'},
@@ -18,8 +18,8 @@ char soal[15][15] = 	   {{'t','g','b','w','w','i','n','t','e','r','w','s','e','s
                          {'q','b','f','r','o','g','m','a','m','w','p','w','e','e','y'},
                          {'l','q','z','q','n','n','m','r','z','j','j','s','c','l','g'},
                          {'m','o','s','g','z','c','z','e','t','d','b','o','o','t','o'},
-			 			             {'p','d','c','r','z','m','s','n','g','r','d','n','r','p','z'},
-						             {'o','h','n','k','z','w','a','t','e','r','j','g','t','r','a'}};
+			 {'p','d','c','r','z','m','s','n','g','r','d','n','r','p','z'},
+			 {'o','h','n','k','z','w','a','t','e','r','j','g','t','r','a'}};
 void display()
 {
 	for(a=0;a<15;a++)
@@ -33,7 +33,7 @@ void display()
 }
 void input_word()
 {
-	cout<<"please input word that you want to looking for  : ";
+	cout<<"Please Input Word That You Want To Looking For  : ";
 	cin>>words;
 }
 
