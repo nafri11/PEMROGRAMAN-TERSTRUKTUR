@@ -168,7 +168,6 @@ result(temp);
 		else if (kembali=='T' || kembali=='t') {exit (0);}
 		else {goto kembali;}
 
-
 	
 	
 
